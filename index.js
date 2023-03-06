@@ -1004,3 +1004,54 @@
 // return b-a
 // });
 // console.log(result);  //[52, 23, 14, 12, 7, 3, 1]
+
+// JavaScript use google V8 engine for compile code.
+// Memory Heap
+// Call stack
+
+// These web APIs are asynchronous. That nmeans you can instruct these APIs to do something in background and return data once done.
+
+// Generator function in javaScript 
+// function* simpleGenerator(){
+//     console.log("call me")
+//     yield 20;
+//     yield 30;
+//     yield 40
+// }
+
+// let sG=simpleGenerator()
+// console.log(sG.next().value)
+// console.log(sG.next())
+// console.log(sG.next())
+// console.log(sG.next())
+
+// function* simpleGenerator(){
+//     let i =100;
+//     while(true){
+//         i++;
+//         yield i
+//     }
+// }
+
+// let sG = simpleGenerator();
+
+// function getNewId(){
+//     document.getElementById('newId').innerText = sG.next().value
+// }
+
+// console.log(true+false)  //1  => false = 0
+
+// var addSix = createBase(6)
+// addSix(10) //return 16
+// addSix(21)   //return 27
+
+// function createBase(a){
+//     return (b)=>{
+//         return a+b;
+//     }
+//  }
+//  var addSix = createBase(6)
+// // addSix(10) //return 16
+// // addSix(21)   //return 27
+// console.log(addSix(10))
+// console.log(addSix(21))
