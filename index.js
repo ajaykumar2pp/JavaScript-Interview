@@ -25,8 +25,8 @@
 // let temp = str.split('o')
 // console.log(temp[0]) // Remove string before specific character
 // let temp=str.split("").reverse().join("")
-// console.log(temp)  Reverse strinf
-// console.log(str.trim())  // remove extre space from both side
+// console.log(temp)  Reverse string
+// console.log(str.trim())  // remove extra space from both side
 
 // function fruit(){
 //     console.log(name)   //undefined
@@ -148,7 +148,7 @@
 
 // how long is cool_secret sccssible ?
 // sessionStorage.setItem('cool_secret',123)  //]
-//  This is a session storage . It will be remove automatcally.whwnever you  also close the browser
+//  This is a session storage . It will be remove automatcally.whenever you  also close the browser
 
 // const obj ={ 1:"a",2:"b",3:"c"};
 // obj.hasOwnProperty("1");
@@ -685,7 +685,7 @@
 // console.log(null==undefined)  //true
 // console.log(null===undefined)  //false
 // console.log(typeof(null))    //object
-// console.log(typeof(undefined))  //undeined
+// console.log(typeof(undefined))  //undefined
 // console.log(typeof(null)==typeof(undefined))  //false
 
 // console.log(typeof(100))  //number
@@ -697,7 +697,7 @@
 
 // var a;
 // if(typeof(a)){
-//     console.log("true")  //true  areturn undefiend
+//     console.log("true")  //true  a return undefiend
 // }
 // else{
 //     console.log("false")
@@ -864,8 +864,8 @@
 // Heterogenous Array 
 // var ajay =[45,"vijay"]  //yes
 
-// What is the functiion of splice() in Js?
-// Ans :  slice a given part of an arrya and return that sliced part as a new array
+// What is the function of splice() in Js?
+// Ans :  slice a given part of an array and return that sliced part as a new array
 
 // var fruits = ['Apple', 'Orange', 'Kiwi', 'Strawberry'];
 // fruits.splice(4, 1, 'Banana');
@@ -920,7 +920,7 @@
 //    var a=b=2;
 // })();
 //     console.log(typeof a)  // undefined
-//     console.log(typeof b)    //nuumber
+//     console.log(typeof b)    //number
 
 
 // test();
