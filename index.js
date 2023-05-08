@@ -1055,3 +1055,18 @@
 // // addSix(21)   //return 27
 // console.log(addSix(10))
 // console.log(addSix(21))
+
+
+// function Ajay(){
+//     console.log("Ajay")
+// }
+// function Ajay(){
+//     console.log("vijay")
+// }
+
+// Ajay()
+
+// for(i=0;i<5;i++){
+    
+// }
+// console.log(i)

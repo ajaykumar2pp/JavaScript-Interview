@@ -90,3 +90,9 @@
 // Deploy the API: Deploy your API to a hosting service like AWS, Heroku, or DigitalOcean. You will need to configure your environment variables and ensure that your database is also deployed and accessible.
 
 // Building an e-commerce API in Node.js can be complex, but it allows you to create a flexible and scalable platform for your e-commerce business. With careful planning and attention to security, you can build an API that provides a seamless experience for your customers and supports your business needs.
+// 
+
+
+
+// Why Nodejs is Single Thread ?
+// Ans => NodeJs Work on the Single Thread model to support the asynchronous processing which provides high performance and efficiency to its application under high amount of load.
