@@ -62,14 +62,40 @@
 // updateCount();
 // updateCount();
 
-function counterwrapper(){
-    let count = 0;
-    return function(){
-        count++;
-        console.log(count)
-    }
-}
+// function counterwrapper(){
+//     let count = 0;
+//     return function(){
+//         count++;
+//         console.log(count)
+//     }
+// }
 
-const updateCount= counterwrapper();
-updateCount();
-updateCount();
+// const updateCount= counterwrapper();
+// updateCount();
+// updateCount();
+
+
+// Important Lexical question
+// function init(){
+//     let name="ajay"
+//     function greet(){
+//         console.log(name)
+//     }
+//     return greet
+// }
+// let sayHi = init();
+// sayHi();
+
+
+// IIFE - Immediately Invoked Function 
+// 1 This practice was popular due to var .
+// Immediately invoking a function avoids- re-declaration of variable inside it
+ 
+(function(){
+    var x=1;
+})()
+console.log(x)
+(function(a){
+var x=a;
+
+})()

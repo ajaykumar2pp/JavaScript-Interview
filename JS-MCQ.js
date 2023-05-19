@@ -417,3 +417,81 @@ const mouse = {
 //   let myname ="Vijay kumar"
 // }
 // sayName();
+
+// Q.6 What is Lexical Environment ?
+// Ans= >Every Variable in js (within global/block/ or function) has a reference to an object-like data called Lexical environment.This object serves as the basis of search for value of varivale.
+
+// let name ="ajay"
+// console.log(name)
+
+// Lexical environment (Global scope)
+// Lexical environment (function)
+// null => outer 
+
+// let name= "ajay"
+// function sayHi(){
+//     let greet ="hi"
+//     console.log(greet)
+
+// }
+// sayHi()
+// console.log(name, sayHi)
+
+
+// let name ="ajay"
+// function sayHi(){
+//     let greet="hi"
+//     console.log(name)
+// }
+// sayHi()
+
+
+// Q.8 What is Hoisting ?
+// ANs=> The movement of variable declaration to top of scope-before execution
+// 1 => function declaration are properly hoisted( value accessible )
+// 2 => var is hoisted
+
+// let name ="ajay"
+// sayhello() //error
+// let sayhello = function(){
+//     console.log(name)
+// }
+
+
+// TDZ
+// let x=1;
+// {
+//     console.log(x)
+//     let x=2
+// }
+
+
+// Q.9 What is Closures
+// Ans => we can create nested function in js
+// function createUser(name){
+//     let greeting ="Hi"
+//     function greet(){
+//         return greeting+name+ "is created "
+
+//     }
+//     return greet()
+// }
+// createUser("ajay")
+// console.log(createUser("ajay"))
+
+// This is main example of clsoure
+
+// function createUser(name){
+//     let greeting="Hi"
+//     function greet(){
+//         return greeting+name+"is created"
+//     }
+//     return greet
+// }
+// let welcomeAjay = createUser("AJay")
+// welcomeAjay()
+
+// this is closure
+// 1 welcomeAjay function definition has access 
+// 1.1  to outer params(name) which came for createUser function
+// 1.2 also any other "variable" declared inside createUser will aslo be accessible to this WelcomeAjay
