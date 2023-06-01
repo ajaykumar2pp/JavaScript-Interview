@@ -94,8 +94,8 @@
 (function(){
     var x=1;
 })()
-console.log(x)
+console.log(x) 
 (function(a){
 var x=a;
 
-})()
+})()  

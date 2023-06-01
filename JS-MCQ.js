@@ -495,3 +495,51 @@ const mouse = {
 // 1 welcomeAjay function definition has access 
 // 1.1  to outer params(name) which came for createUser function
 // 1.2 also any other "variable" declared inside createUser will aslo be accessible to this WelcomeAjay
+
+// let arr=[1,2,3,4,5]
+// let obj={...arr}
+// console.log(obj)
+
+
+
+// const arr=[3,4,5,6]
+// for(let i in arr){
+//     console.log(i) //index value calculate 0,1,2,3
+// }
+// for(let i of arr){
+//     console.log(i)
+// }
+// // const arr=[3,4,5,6]  //value calculate  3,4,5,6
+// arr.foo="hi"
+
+// let arr =['a','b','c','c','d','a','b','b','e','f','f','g','h','a']
+// // output={ }
+// // {a: 3, b: 3, c: 2, d: 1, e: 1,f:2,g:1,h:1}
+
+// function uniqueCount(){
+//     let counter ={}
+//     arr.forEach((val)=>{
+//         counter[val] =(counter[val] || 0)+1
+//         // if(!counter[val]){
+//         //     counter[val]=1
+//         // }
+//         // else{
+//         //     counter[val]=counter[val]+1;
+//         // }
+//     })
+
+//     return counter;
+// }
+// uniqueCount(arr)
+// const res = uniqueCount(arr)
+// console.log(res)  
+
+
+
+// const name="ajay"
+// const age =21;
+// console.log(Number.isNaN(name))
+// console.log(Number.isNaN(age))
+
+// console.log(isNaN(name))
+// console.log(isNaN(age))

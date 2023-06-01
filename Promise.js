@@ -75,3 +75,41 @@
 // Promise.all 
 // promise.allsettled
 // promise.race
+
+
+
+// *******************************  Learning End Promises  *********************//
+
+let myPromise = new Promise((resolve,reject)=>{
+    document.write("Pending...........")
+    // setTimeout function 
+    setTimeout(()=>{
+        
+        let a= 1+2;
+        if(a==3){
+            resolve("pass")
+        }
+        else{
+            reject("failed")
+        }
+    
+
+    },4000)
+   
+})
+
+myPromise.then((msg)=>{
+    document.write(msg+"- Promise Fullfilled")
+
+}).catch((msg)=>{
+   document.write(msg+"- Promise Rejected")
+})
+
+console.log(myPromise)
+
+// what is Synchronous in JS ?
+// synchronous programming is aprogramming model where operations take place sequentially..
+
+// what is Asynchronous in JS ?
+// Asynchrous programming is a programming model where  operations does not dependent on each other..
+
