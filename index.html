@@ -1,33 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>JS Interview</title>
 </head>
+
 <body>
-    <h1> JavaScript Interview </div>    
+    <h1> JavaScript Interview </div>
 
         <!-- <tr>
          <td> <a class="btn btn-outline-primary" href="{{i['Views']}}" target = "_blank" role="button">Visit Website<a></a></td>
          
         </tr> -->
-   <h1>Get New Use Id  :<span id="newId"></span></h1>
-   <button class="btn btn-primary" onclick="getNewId()">Generate Id</button>
-       
-    
-    <!-- <script src="./index.js"></script>  -->
-    <!-- <script src="./crud.js"></script>  -->
-    <!-- <script src="./Find_VS_Filter.js"></script>  -->
+        <h1>Get New Use Id :<span id="newId"></span></h1>
+        <button class="btn btn-primary" onclick="getNewId()">Generate Id</button>
+        <div class="parent" id="parentId">
+            <div class="child" id="childId">
 
-    <!-- <script src="./JS-MCQ.js"></script>  -->
-    <script src="./Promise.js"></script> 
-    <!-- <script src="./closure.js"></script> -->
-    <!-- <script src="./First_Factorial.js"></script> -->
-    <!-- <script src="./Time_Convert.js"></script> -->
-    <!-- <script src="./First_Reverse.js"></script> -->
-    <!-- <script src="./LetterCapitalize.js"></script> -->
-    <!-- <script src="./Vowels Count.js"></script> -->
+            </div>
+
+        </div>
+
+        <p id="myData"> I am Ajay kumar</p>
+        <button onclick="startTimer()">Detail</button>
+        <button onclick="stopTimer()">Stop</button>
+
+        <!-- <script src="./index.js"></script>  -->
+        <!-- <script src="./crud.js"></script>  -->
+        <!-- <script src="./Find_VS_Filter.js"></script>  -->
+
+        <!-- <script src="./JS-MCQ.js"></script>  -->
+        <!-- <script src="./Promise.js"></script>  -->
+        <!-- <script src="./ArrayFilter.js"></script>  -->
+        <!-- <script src="./closure.js"></script> -->
+        <!-- <script src="./First_Factorial.js"></script> -->
+        <!-- <script src="./Time_Convert.js"></script> -->
+        <!-- <script src="./First_Reverse.js"></script> -->
+        <!-- <script src="./LetterCapitalize.js"></script> -->
+        <!-- <script src="./Vowels Count.js"></script> -->
+        <!-- <script src="./EventCapturing.js"></script> -->
+        <!-- <script src="./Tech/ReduceMethod.js"></script> -->
+        <!-- <source src="SetTimeout and SetInterval.js" > -->
+              <!-- <script src="./Tech/Convet_2_or_3d_array.js"></script> -->
+              <script src="./Tech/HOF_VS_CallBacl_Function.js"></script>
+
+        <!-- <script>
+            const myData = document.querySelector("#myData")
+
+
+            let timerRef;
+            let count=0;
+            function startTimer() {
+                console.log("click")
+                myData.innerHTML = `Lodaing Data ............`
+
+                timerRef = setInterval(() => {
+                    myData.innerHTML = `Full Stack Web Developer ${count}`
+                    count++;
+                }, 2000)
+            }
+
+            function stopTimer() {
+                clearInterval(timerRef)
+            }
+        </script> -->
 </body>
+
 </html>

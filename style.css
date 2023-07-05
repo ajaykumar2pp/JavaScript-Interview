@@ -1,3 +1,16 @@
 .a{
     text-decoration: none;
 }
+.parent{
+    width: 500px;
+    height: 300px;
+    border-color: 5px solid green;
+    background-color: aquamarine;
+}
+.child{
+    width: 300px;
+    height: 100px;
+    margin: 20px;
+    background-color: yellow;
+    border-color: 5px solid green;
+}

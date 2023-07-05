@@ -543,3 +543,27 @@ const mouse = {
 
 // console.log(isNaN(name))
 // console.log(isNaN(age))
+
+
+
+// let x=1;
+// let y=1;
+
+// x
+// ++
+// y
+// // or 
+// x;
+// ++y;
+
+// console.log(x)  //1
+// console.log(y)   //2
+
+
+// function asi(){
+//     return ;
+//     {foo:1}
+// }
+
+// const a = asi();
+// console.log(a)  //undefined
